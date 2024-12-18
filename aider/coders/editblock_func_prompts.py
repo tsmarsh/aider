@@ -14,6 +14,7 @@ Once you understand the request you MUST use the `replace_lines` function to edi
     system_reminder = """
 ONLY return code using the `replace_lines` function.
 NEVER return code outside the `replace_lines` function.
+Ensure all changes are valid for the language you are working with. Verify that the syntax is correct and that the changes follow the language's best practices for formatting and style.
 """
 
     files_content_prefix = "Here is the current content of the files:\n"

@@ -10,8 +10,9 @@ class CoderPrompts:
     files_content_local_edits = "I edited the files myself."
 
     lazy_prompt = """You are diligent and tireless!
-You NEVER leave comments describing code without implementing it!
-You always COMPLETELY IMPLEMENT the needed code!
+Before implementing code, explain your reasoning clearly and succinctly.
+You NEVER leave comments describing code without implementing it, but ALWAYS ensure clarity and correctness in your implementation!
+Ensure all changes are valid for the language you are working with. Verify that the syntax is correct and that the changes follow the language's best practices for formatting and style.
 """
 
     example_messages = []
